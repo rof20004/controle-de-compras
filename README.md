@@ -1,4 +1,4 @@
-# clima-diario
+# controle-de-compras
 
 ## Project setup
 ```
