@@ -33,9 +33,8 @@
 <script>
 export default {
   mounted () {
-    const options = { draggable: true }
-    const elems = document.querySelectorAll('.sidenav')
-    window.M.Sidenav.init(elems, options)
+    const sideNav = document.querySelectorAll('.sidenav')
+    window.M.Sidenav.init(sideNav, { draggable: true })
   }
 }
 </script>
